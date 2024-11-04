@@ -12,7 +12,8 @@ int main(array<System::String ^> ^args){
 
     Console::WriteLine(L"Завдання 1");
     // Створюємо додатковий клас для роботи с рядками
-    StringBuilder^ str1 = gcnew StringBuilder("Some textsdasss");
+    int newF;
+    StringBuilder^ str1 = gcnew StringBuilder("Some text");
     str1->Insert(0, "begin");
     str1->Insert(str1->Length, "end");
     Console::WriteLine(str1);
